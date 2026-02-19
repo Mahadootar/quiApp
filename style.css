@@ -1,0 +1,83 @@
+:root{
+    font-family: RUBIK, regular;
+}
+
+body {
+    background-color:#f5f7f7!important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row_class_second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row_under_div{
+    display: none;
+}
+
+#img_backgroung{
+    background-image: url(./assets/img/brainbg.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.the_second_div{
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_class{
+    width: 100px;
+    object-fit: cover;
+    
+}
+
+.kart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_div{
+    display: none;
+    justify-content: end;
+}
+
+.spanclass{
+    display: flex;
+    gap: 10px;
+}
+
+.quiz_answer:hover{
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+}
+
+.question-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+
+}
