@@ -11,6 +11,20 @@ body {
     flex-direction: column;
 }
 
+.first-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 700px;
+}
+
+.second_con{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(39 119 16);
+    width: 20%;
+}
+
 .row_class_second{
     display: flex;
     align-items: center;
@@ -24,25 +38,52 @@ body {
 
 #img_backgroung{
     background-image: url(./assets/img/brainbg.jpg);
-    height: 100vh;
     display: flex;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
+    flex: 1;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .the_second_div{
-    display: none;
+    display: flex;
     flex-direction: column;
     flex: 1;
     align-items: center;
     justify-content: center;
 }
 
+#start_container{
+    display: flex;
+}
+
+#question_body{
+    display: none;
+}
+
+.green_marked{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 5px;
+}
+
+.background{
+    width: 80%;
+}
+
 .img_class{
     width: 100px;
     object-fit: cover;
-    
+}
+
+.img-brain{
+    margin-top: 10px;
+    display: flex;
 }
 
 .kart{
@@ -50,6 +91,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .btn_div{
@@ -60,6 +102,10 @@ body {
 .spanclass{
     display: flex;
     gap: 10px;
+}
+
+.bg-success, .bg-danger{
+    color: white!important;
 }
 
 .quiz_answer:hover{
@@ -79,5 +125,68 @@ footer{
     gap: 50px;
     border-top: 1px solid rgba(0, 0, 0, 0.25);
     padding-top: 10px;
+
+}
+
+.finish_div{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    gap: 10px;
+}
+
+.score_class{
+    display: flex;
+    gap: 10px;
+}
+
+.progress{
+    width: 50%;
+}
+
+@media(max-width: 700px){
+    .first-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 500px;
+}
+
+}
+
+@media(max-width: 500px){
+    .first-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 300px;
+}
+
+.log_img{
+    width: 50px;
+}
+
+#kart_body{
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.nav-item{
+    font-size: 12px;
+}
 
 }

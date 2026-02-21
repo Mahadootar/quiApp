@@ -17,19 +17,19 @@ let allQuestions = [
     },
     {
         "question": "When was HTML invented?",
-        "answer_1": "1990",
-        "answer_2": "1985",
-        "answer_3": "1995",
-        "answer_4": "2000",
-        "correct_answer": 1
+        "answer_1": "1985",
+        "answer_2": "1995",
+        "answer_3": "2000",
+        "answer_4": "1990",
+        "correct_answer": 4
     },
     {
         "question": "What does CSS stand for?",
-        "answer_1": "Cascading Style Sheets",
-        "answer_2": "Computer Style Sheets",
+        "answer_1": "Computer Style Sheets",
+        "answer_2": "Cascading Style Sheets",
         "answer_3": "Creative Style Sheets",
         "answer_4": "Colorful Style Sheets",
-        "correct_answer": 1
+        "correct_answer": 2
     },
     {
          "question": "Who founded the CSS?",
@@ -50,11 +50,11 @@ let allQuestions = [
     },
     {
         "question": "What does JS stand for?",
-        "answer_1": "JavaScript",
-        "answer_2": "Java Script",
-        "answer_3": "Joining Script",
+        "answer_1": "Java Script",
+        "answer_2": "Joining Script",
+        "answer_3": "JavaScript",
         "answer_4": "JQuery Script",
-        "correct_answer": 1
+        "correct_answer": 3
     },
     {
         "question": "Who founded the JS?",
@@ -75,11 +75,11 @@ let allQuestions = [
 
     {
         "question": "What does Java mean?",
-        "answer_1": "A programming language",
-        "answer_2": "A type of coffee",
-        "answer_3": "A type of car",
-        "answer_4": "A type of fruit",
-        "correct_answer": 1
+        "answer_1": "A type of coffee",
+        "answer_2": "A type of car",
+        "answer_3": "A type of fruit",
+        "answer_4": "A programming language",
+        "correct_answer": 4
     },
     {
         "question": "What is Java mainly used for?",
